@@ -1,0 +1,27 @@
+/* globals.css
+   App-wide base styles. */
+   @tailwind base;
+   @tailwind components;
+   @tailwind utilities;
+   
+   :root {
+     color-scheme: dark;
+   }
+   
+   html,
+   body {
+     height: 100%;
+   }
+   
+   body {
+     margin: 0;
+     font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+     background: #0a0a0c;
+     color: #e8e8ea;
+   }
+   
+   a {
+     color: inherit;
+     text-decoration: none;
+   }
+   
